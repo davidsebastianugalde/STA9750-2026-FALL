@@ -1,0 +1,18 @@
+---
+title: "David Ugalde"
+---
+
+## About Me
+
+I'm a Master's student in Business Analytics at Baruch College with a professional background in digital advertising operations. I'm interested in data analytics, quantitative decision-making, and using data to solve real business problems.
+
+This site contains my work for STA 9750.
+
+```{r}
+#| include: false
+1+1
+```
+
+---
+
+Last Updated: `r format(Sys.time(), "%A %m %d, %Y at %H:%M%p")`
