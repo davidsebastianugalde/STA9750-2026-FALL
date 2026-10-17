@@ -1210,5 +1210,5 @@ To summarize, live entertainment is still an area of untapped growth potential a
 ::: {.callout-note title="AI Usage Statement" collapse="true"}
 
 I used AI to help me write, polish, and fix my code particularly when I ran into bugs or had ideas I didn’t know how to implement. I also asked AI to explain statistical concepts, to give me background on the project topic, and provide feedback on project completion requirements. AI did NOT write any of my interpretations nor my memo.
-:::HEader 
+:::
 
