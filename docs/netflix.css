@@ -1,0 +1,27 @@
+
+/* Netflix-inspired website theme */
+
+body {
+  color: #141414;
+  background-color: #FFFFFF;
+}
+
+/* Main headings */
+h1, h2, h3 {
+  color: #141414;
+}
+
+/* Netflix-red section accents */
+main h2 {
+  border-bottom: 2px solid #E50914;
+  padding-bottom: 6px;
+}
+
+/* Links */
+main a {
+  color: #B20710;
+}
+
+main a:hover {
+  color: #E50914;
+}
