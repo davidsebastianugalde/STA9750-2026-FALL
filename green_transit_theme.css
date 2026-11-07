@@ -1,0 +1,45 @@
+/* Optional Green Transit Alliance visual theme for Quarto HTML.
+   Include in YAML:
+   format:
+     html:
+       css: green_transit.css
+   This styles the HTML document, not the ggplot chart pixels. */
+:root {
+  --gta-forest: #174C3B;
+  --gta-fern: #37795B;
+  --gta-sage: #DCE9DC;
+  --gta-paper: #FAFBF7;
+  --gta-gold: #BD9253;
+  --gta-ink: #213A2C;
+}
+body {
+  background: var(--gta-paper);
+  color: var(--gta-ink);
+  font-family: "Aptos", "Source Sans 3", "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+}
+h1, h2, h3, h4, .title {
+  color: var(--gta-forest);
+  letter-spacing: -0.015em;
+}
+h1.title { font-weight: 750; }
+h2 {
+  border-bottom: 2px solid var(--gta-sage);
+  padding-bottom: 0.25em;
+}
+a { color: var(--gta-fern); }
+a:hover { color: var(--gta-forest); }
+blockquote { border-left: 4px solid var(--gta-gold); }
+table { border-collapse: collapse; }
+table thead { background: var(--gta-forest); color: #fff; }
+table th { font-weight: 650; }
+table tbody tr:nth-child(even) { background: #EAF1EA; }
+.quarto-title-meta { color: #557161; }
+.cell-output-display { margin-top: 1.0em; margin-bottom: 1.5em; }
+.callout.callout-style-default.callout-note { border-left-color: var(--gta-fern); }
+/* Keep visual elements intact in browser PDF exports where possible. */
+@media print {
+  body { background: white; }
+  .cell-output-display, figure, .quarto-figure, table, .callout { break-inside: avoid; }
+  h2, h3 { break-after: avoid; }
+}
